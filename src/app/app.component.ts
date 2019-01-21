@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { FloatingActionButton } from 'floating-action-menu';
+import { FloatingActionButton } from 'ng-floating-action-menu';
 
 @Component({
   selector: 'app-root',
   template: `
-    <ng2-floating-action-menu
+    <ng-floating-action-menu
       [placement]="config.placment"
       [effect]="config.effect"
       [label]="config.label"
@@ -13,7 +13,7 @@ import { FloatingActionButton } from 'floating-action-menu';
       [toggle]="config.toggle"
       [buttons]="buttons"
     >
-    </ng2-floating-action-menu>
+    </ng-floating-action-menu>
   `
 })
 export class AppComponent {

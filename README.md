@@ -1,27 +1,135 @@
-# Ng2FloatingActionMenu
+# ng-floating-action-menu
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
+updated version of [ng2-floating-button](https://github.com/tahashahid/ng2-floating-button)
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```bash
+$ npm install ng-floating-action-menu --save
+```
 
-## Code scaffolding
+## usage
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```typescript
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
-## Build
+import { AppComponent } from './app.component';
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+// Import your library
+import { NgFloatingActionMenuModule } from 'ng-floating-action-menu';
 
-## Running unit tests
+@NgModule({
+  declarations: [AppComponent],
+  imports: [
+    BrowserModule,
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    // Specify your library as an import
+    NgFloatingActionMenuModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule {}
+```
 
-## Running end-to-end tests
+**component.html**
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```xml
+   <ng-floating-action-menu
+     [placement]="config.placment"
+     [effect]="config.effect"
+     [label]="config.label"
+     [iconClass]="config.iconClass"
+     [activeIconClass]="config.activeIconClass"
+     [toggle]="config.toggle"
+     [buttons]="buttons">
+   </ng-floating-action-menu>
+```
 
-## Further help
+**component.ts**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```typescript
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'app';
+  config;
+  buttons: Array<FloatingActionButton> = [
+    {
+      iconClass: 'ion-social-github',
+      label: 'follow me on github',
+      onClick: function() {}
+    },
+    {
+      iconClass: 'ion-social-facebook',
+      label: 'follow me on facebook',
+      onClick: function() {}
+    },
+    {
+      iconClass: 'ion-social-linkedin',
+      label: 'linkedin',
+      onClick: function() {}
+    }
+  ];
+
+  placements = [
+    {
+      value: 'br',
+      key: 'bottom right'
+    },
+    {
+      value: 'bl',
+      key: 'bottom left'
+    },
+    {
+      value: 'tr',
+      key: 'top right'
+    },
+    {
+      value: 'tl',
+      key: 'top left'
+    }
+  ];
+
+  effects = [
+    {
+      value: 'mfb-zoomin',
+      key: 'Zoom In'
+    },
+    {
+      value: 'mfb-slidein',
+      key: 'Slide In + Fade'
+    },
+    {
+      value: 'mfb-fountain',
+      key: 'Fountain'
+    },
+    {
+      value: 'mfb-slidein-spring',
+      key: 'Slide In (Spring)'
+    }
+  ];
+
+  toggles = ['click', 'hover'];
+
+  constructor() {
+    this.config = {
+      placment: 'br',
+      effect: 'mfb-zoomin',
+      label: 'main button label',
+      iconClass: 'ion-plus-round',
+      activeIconClass: 'ion-close-round',
+      toggle: 'click',
+      buttons: this.buttons
+    };
+  }
+}
+```
+
+## License
+
+MIT © [Shalva Jashiashvili](mailto:sh.jashiashvili@gmail.com)

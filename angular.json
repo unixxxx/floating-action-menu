@@ -22,13 +22,8 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -82,26 +77,16 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
-            "styles": [
-              "src/styles.scss"
-            ],
+            "styles": ["src/styles.scss"],
             "scripts": [],
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ]
+            "assets": ["src/favicon.ico", "src/assets"]
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": [
-              "src/tsconfig.app.json",
-              "src/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "tsConfig": ["src/tsconfig.app.json", "src/tsconfig.spec.json"],
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -127,44 +112,40 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": "e2e/tsconfig.e2e.json",
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
     },
-    "floating-action-menu": {
-      "root": "projects/floating-action-menu",
-      "sourceRoot": "projects/floating-action-menu/src",
+    "ng-floating-action-menu": {
+      "root": "projects/ng-floating-action-menu",
+      "sourceRoot": "projects/ng-floating-action-menu/src",
       "projectType": "library",
-      "prefix": "ng2",
+      "prefix": "ng",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/floating-action-menu/tsconfig.lib.json",
-            "project": "projects/floating-action-menu/ng-package.json"
+            "tsConfig": "projects/ng-floating-action-menu/tsconfig.lib.json",
+            "project": "projects/ng-floating-action-menu/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/floating-action-menu/src/test.ts",
-            "tsConfig": "projects/floating-action-menu/tsconfig.spec.json",
-            "karmaConfig": "projects/floating-action-menu/karma.conf.js"
+            "main": "projects/ng-floating-action-menu/src/test.ts",
+            "tsConfig": "projects/ng-floating-action-menu/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-floating-action-menu/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/floating-action-menu/tsconfig.lib.json",
-              "projects/floating-action-menu/tsconfig.spec.json"
+              "projects/ng-floating-action-menu/tsconfig.lib.json",
+              "projects/ng-floating-action-menu/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }

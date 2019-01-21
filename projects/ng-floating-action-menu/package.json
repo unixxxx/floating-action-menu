@@ -1,5 +1,5 @@
 {
-  "name": "floating-action-menu",
+  "name": "ng-floating-action-menu",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^7.1.0",

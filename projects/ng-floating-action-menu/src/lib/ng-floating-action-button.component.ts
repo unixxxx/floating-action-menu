@@ -1,8 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { FloatingActionButton } from '../FloatingActionButton';
+import { FloatingActionButton } from './FloatingActionButton';
 
 @Component({
-  selector: 'ng2-floating-action-button',
+  selector: 'ng-floating-action-button',
   template: `
     <a
       href
@@ -12,10 +12,9 @@ import { FloatingActionButton } from '../FloatingActionButton';
     >
       <i class="mfb-component__child-icon {{ button.iconClass }}"></i>
     </a>
-  `,
-  styleUrls: ['./floating-action-button.component.css']
+  `
 })
-export class FloatingActionButtonComponent implements OnInit {
+export class NgFloatingActionButtonComponent implements OnInit {
   @Input() button: FloatingActionButton;
 
   constructor() {}

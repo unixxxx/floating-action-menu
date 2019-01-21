@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/floating-action-menu",
+  "dest": "../../dist/ng-floating-action-menu",
   "lib": {
     "entryFile": "src/public_api.ts"
   }

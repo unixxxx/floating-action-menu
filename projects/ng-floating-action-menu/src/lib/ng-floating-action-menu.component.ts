@@ -1,8 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { FloatingActionButton } from './FloatingActionButton';
+import { FloatingActionButton } from '../public_api';
 
 @Component({
-  selector: 'ng2-floating-action-menu',
+  selector: 'ng-floating-action-menu',
   template: `
     <ul
       mfb-menu
@@ -28,17 +28,17 @@ import { FloatingActionButton } from './FloatingActionButton';
         <ul class="mfb-component__list">
           <!-- a child button, repeat as many times as needed -->
           <li *ngFor="let button of buttons">
-            <ng2-floating-action-button
+            <ng-floating-action-button
               [button]="button"
-            ></ng2-floating-action-button>
+            ></ng-floating-action-button>
           </li>
         </ul>
       </li>
     </ul>
   `,
-  styleUrls: ['./floating-action-menu.component.scss']
+  styleUrls: ['./ng-floating-action-menu.component.scss']
 })
-export class FloatingActionMenuComponent implements OnInit {
+export class NgFloatingActionMenuComponent implements OnInit {
   public isOpen = false;
   public state = 'closed';
 
