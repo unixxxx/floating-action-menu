@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "floating-action-menu": [
+        "dist/floating-action-menu"
+      ],
+      "floating-action-menu/*": [
+        "dist/floating-action-menu/*"
+      ]
+    }
   }
 }

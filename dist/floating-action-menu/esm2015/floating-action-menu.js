@@ -1,0 +1,11 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/**
+ * Generated bundle index. Do not edit.
+ */
+export { FloatingActionMenuModule, FloatingActionButton } from './public_api';
+export { FloatingActionButtonComponent as ɵb } from './lib/floating-action-button/floating-action-button.component';
+export { FloatingActionMenuComponent as ɵa } from './lib/floating-action-menu.component';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZmxvYXRpbmctYWN0aW9uLW1lbnUuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9mbG9hdGluZy1hY3Rpb24tbWVudS8iLCJzb3VyY2VzIjpbImZsb2F0aW5nLWFjdGlvbi1tZW51LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFJQSwrREFBYyxjQUFjLENBQUM7QUFFN0IsT0FBTyxFQUFDLDZCQUE2QixJQUFJLEVBQUUsRUFBQyxNQUFNLCtEQUErRCxDQUFDO0FBQ2xILE9BQU8sRUFBQywyQkFBMkIsSUFBSSxFQUFFLEVBQUMsTUFBTSxzQ0FBc0MsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogR2VuZXJhdGVkIGJ1bmRsZSBpbmRleC4gRG8gbm90IGVkaXQuXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9wdWJsaWNfYXBpJztcblxuZXhwb3J0IHtGbG9hdGluZ0FjdGlvbkJ1dHRvbkNvbXBvbmVudCBhcyDJtWJ9IGZyb20gJy4vbGliL2Zsb2F0aW5nLWFjdGlvbi1idXR0b24vZmxvYXRpbmctYWN0aW9uLWJ1dHRvbi5jb21wb25lbnQnO1xuZXhwb3J0IHtGbG9hdGluZ0FjdGlvbk1lbnVDb21wb25lbnQgYXMgybVhfSBmcm9tICcuL2xpYi9mbG9hdGluZy1hY3Rpb24tbWVudS5jb21wb25lbnQnOyJdfQ==

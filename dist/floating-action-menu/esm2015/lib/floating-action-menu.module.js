@@ -1,0 +1,18 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+import { NgModule } from '@angular/core';
+import { FloatingActionMenuComponent } from './floating-action-menu.component';
+import { FloatingActionButtonComponent } from './floating-action-button/floating-action-button.component';
+import { CommonModule } from '@angular/common';
+export class FloatingActionMenuModule {
+}
+FloatingActionMenuModule.decorators = [
+    { type: NgModule, args: [{
+                declarations: [FloatingActionMenuComponent, FloatingActionButtonComponent],
+                imports: [CommonModule],
+                exports: [FloatingActionMenuComponent, FloatingActionButtonComponent]
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZmxvYXRpbmctYWN0aW9uLW1lbnUubW9kdWxlLmpzIiwic291cmNlUm9vdCI6Im5nOi8vZmxvYXRpbmctYWN0aW9uLW1lbnUvIiwic291cmNlcyI6WyJsaWIvZmxvYXRpbmctYWN0aW9uLW1lbnUubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7QUFBQSxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBQ3pDLE9BQU8sRUFBRSwyQkFBMkIsRUFBRSxNQUFNLGtDQUFrQyxDQUFDO0FBQy9FLE9BQU8sRUFBRSw2QkFBNkIsRUFBRSxNQUFNLDJEQUEyRCxDQUFDO0FBQzFHLE9BQU8sRUFBRSxZQUFZLEVBQUUsTUFBTSxpQkFBaUIsQ0FBQztBQU8vQyxNQUFNLE9BQU8sd0JBQXdCOzs7WUFMcEMsUUFBUSxTQUFDO2dCQUNSLFlBQVksRUFBRSxDQUFDLDJCQUEyQixFQUFFLDZCQUE2QixDQUFDO2dCQUMxRSxPQUFPLEVBQUUsQ0FBQyxZQUFZLENBQUM7Z0JBQ3ZCLE9BQU8sRUFBRSxDQUFDLDJCQUEyQixFQUFFLDZCQUE2QixDQUFDO2FBQ3RFIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IEZsb2F0aW5nQWN0aW9uTWVudUNvbXBvbmVudCB9IGZyb20gJy4vZmxvYXRpbmctYWN0aW9uLW1lbnUuY29tcG9uZW50JztcbmltcG9ydCB7IEZsb2F0aW5nQWN0aW9uQnV0dG9uQ29tcG9uZW50IH0gZnJvbSAnLi9mbG9hdGluZy1hY3Rpb24tYnV0dG9uL2Zsb2F0aW5nLWFjdGlvbi1idXR0b24uY29tcG9uZW50JztcbmltcG9ydCB7IENvbW1vbk1vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvbW1vbic7XG5cbkBOZ01vZHVsZSh7XG4gIGRlY2xhcmF0aW9uczogW0Zsb2F0aW5nQWN0aW9uTWVudUNvbXBvbmVudCwgRmxvYXRpbmdBY3Rpb25CdXR0b25Db21wb25lbnRdLFxuICBpbXBvcnRzOiBbQ29tbW9uTW9kdWxlXSxcbiAgZXhwb3J0czogW0Zsb2F0aW5nQWN0aW9uTWVudUNvbXBvbmVudCwgRmxvYXRpbmdBY3Rpb25CdXR0b25Db21wb25lbnRdXG59KVxuZXhwb3J0IGNsYXNzIEZsb2F0aW5nQWN0aW9uTWVudU1vZHVsZSB7fVxuIl19

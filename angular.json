@@ -133,6 +133,41 @@
           }
         }
       }
+    },
+    "floating-action-menu": {
+      "root": "projects/floating-action-menu",
+      "sourceRoot": "projects/floating-action-menu/src",
+      "projectType": "library",
+      "prefix": "ng2",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/floating-action-menu/tsconfig.lib.json",
+            "project": "projects/floating-action-menu/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/floating-action-menu/src/test.ts",
+            "tsConfig": "projects/floating-action-menu/tsconfig.spec.json",
+            "karmaConfig": "projects/floating-action-menu/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/floating-action-menu/tsconfig.lib.json",
+              "projects/floating-action-menu/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "ng2-floating-action-menu"

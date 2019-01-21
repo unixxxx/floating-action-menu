@@ -1,0 +1,11 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/*
+import { FloatingActionButton } from 'projects/floating-action-menu/src/lib/FloatingActionButton';
+ * Public API Surface of floating-action-menu
+ */
+export { FloatingActionMenuModule } from './lib/floating-action-menu.module';
+export { FloatingActionButton } from './lib/FloatingActionButton';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2Zsb2F0aW5nLWFjdGlvbi1tZW51LyIsInNvdXJjZXMiOlsicHVibGljX2FwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUlBLHlDQUFjLG1DQUFtQyxDQUFDO0FBQ2xELHFDQUFjLDRCQUE0QixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbmltcG9ydCB7IEZsb2F0aW5nQWN0aW9uQnV0dG9uIH0gZnJvbSAncHJvamVjdHMvZmxvYXRpbmctYWN0aW9uLW1lbnUvc3JjL2xpYi9GbG9hdGluZ0FjdGlvbkJ1dHRvbic7XG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2YgZmxvYXRpbmctYWN0aW9uLW1lbnVcbiAqL1xuZXhwb3J0ICogZnJvbSAnLi9saWIvZmxvYXRpbmctYWN0aW9uLW1lbnUubW9kdWxlJztcbmV4cG9ydCAqIGZyb20gJy4vbGliL0Zsb2F0aW5nQWN0aW9uQnV0dG9uJztcbiJdfQ==
